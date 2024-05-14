@@ -1,0 +1,110 @@
+.header{
+    width: 100%;
+    position: fixed;
+    padding: 0 10%;
+    background:white;
+    z-index: 9999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    height: 70px;
+}
+.headercon{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pages{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+.pages li{
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.pages li:hover{
+    color: red;
+}
+.about{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.about p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.about input{
+    width: 200px;
+    padding-left: 10px;
+    height: 30px;
+    border: none;
+    background: rgba(237, 242, 244, 1);
+    border-radius: 10px;
+}
+.pages li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    /* opacity: 0.4; */
+    cursor: pointer;
+    position: relative;
+}
+.pages li::before {
+    content: "";
+    width: 0;
+    height: 1px;
+    background: gray;
+    position: absolute;
+    transition: 0.3s;
+    bottom: -4px;
+    left: 0;
+  }
+.pages li:hover::before {
+    width: 100%;
+}
+.about p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    /* opacity: 0.4; */
+    cursor: pointer;
+    position: relative;
+}
+.about p::before {
+    content: "";
+    width: 0;
+    height: 1px;
+    background: gray;
+    position: absolute;
+    transition: 0.3s;
+    bottom: -4px;
+    left: 0;
+  }
+.about p:hover::before {
+    width: 100%;
+}
+.About{
+    padding-top: 150px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 70px;
+    h2{
+        width: 100%;
+    }
+}

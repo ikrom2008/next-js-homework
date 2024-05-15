@@ -30,9 +30,6 @@
     font-weight: 500;
     cursor: pointer;
 }
-.pages li:hover{
-    color: red;
-}
 .about{
     display: flex;
     gap: 50px;

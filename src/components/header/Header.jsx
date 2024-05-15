@@ -6,7 +6,7 @@ import Link from 'next/link'
 function Header() {
   return (
     <div className='headercon'>
-      <header className='header container'>
+      <header className='header'>
         <nav className='navbar'>
             <ul className='pages'>
                 <li><Link href='/' style={{textDecoration:'none', color: 'black'}}>Home</Link></li>
